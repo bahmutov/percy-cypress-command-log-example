@@ -4,10 +4,8 @@
 
 context('Example Cypress TodoMVC test', () => {
   beforeEach(() => {
-    // usually we recommend setting baseUrl in cypress.json
-    // but for simplicity of this example we just use it here
     // https://on.cypress.io/visit
-    cy.visit('http://todomvc.com/examples/vue/')
+    cy.visit('/')
   })
 
   it('adds 2 todos', function () {
